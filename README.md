@@ -86,7 +86,7 @@ cd 0x02-python_async_comprehension
 # :man: Author and Credits.
 This project was done by [SE. Richard Miruka](https://github.com/RichardMiruka). Feel free to get intouch with me;
 
-:iphone: WhatsApp [+254700129706](https://wa.me/254700129)
+:iphone: WhatsApp [+254700129706](https://wa.me/254700129706)
 
 :email: Email [richardmiruka96@gmail.com](mailto:richardmiruka96@gmail.com)
 
