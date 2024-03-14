@@ -16,6 +16,7 @@ try :
 except Exception as e:
     print(e)                  
 # TypeError: unsupported operand type
+# TypeError: can only concatenate str (not "int") to str
 
 
 # In this case, Python tries to add an integer to a string, which is not allowed.
@@ -35,6 +36,17 @@ print(fn_with_hints(1, 2))  # 3
 
 # Type hints are not enforced by Python, but they can be checked using a tool called mypy.
 # Type hints are also used by many IDEs to provide better code completion and error checking.
+
+# In Python 3, type annotations do not change this.
+# Python is still a dynamically-typed language. 
+# Type annotations serve the following purpose:
+
+# 1.Code documentation: thanks to them, a developer reading type-annotated code (his own or someone else’s) 
+# will know exactly what type each variables is supposed to be.
+# This helps reduce bugs and exceptions and accelerate the development cycle.
+
+# 2. Linting and validation: code editors and continuous integration (CI) pipelines can be configured to automatically validate
+# type-annotated code at build-time and catch bugs before they make it to production.
 
 # There are other built-in types, such as float, str, bool, and list, as well as more complex types like Tuple, Dict, and Set.
 # You can also define your own types using the typing module.
