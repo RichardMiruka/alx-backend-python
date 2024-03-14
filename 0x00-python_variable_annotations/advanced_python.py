@@ -11,14 +11,15 @@ def fn(a, b):
 
 # This is a powerful feature, but it can also lead to bugs if you're not careful.
 # For example, the following code will raise an exception:
-try:
+try :
     print(1 + "Hello")
 except Exception as e:
-    print(e)
+    print(e)                  
+# TypeError: unsupported operand type
+
 
 # In this case, Python tries to add an integer to a string, which is not allowed.
 # If you're not careful, this can lead to bugs that are hard to find.
-
 # To avoid these kinds of errors, you can use type hints.
 # Type hints are a way of indicating what kind of value a variable should hold.
 # They don't affect the behavior of the code, but they can help catch bugs early on.
