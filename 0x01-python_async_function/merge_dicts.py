@@ -1,4 +1,4 @@
-#how to merege two dicts
+#how to merge two dicts
 #using **kwargs in python function
 def merge_dict(**kwargs):
     print(kwargs)
