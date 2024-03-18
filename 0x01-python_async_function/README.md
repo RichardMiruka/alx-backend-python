@@ -4,7 +4,7 @@
 > Back-end
 
  ![image](https://github.com/RichardMiruka/alx-backend-python/assets/105627752/721e942f-1121-46b3-92ab-b529028ef689)
- ![image](https://github.com/RichardMiruka/alx-backend-python/assets/105627752/7f141479-fde1-4129-aae1-857f45ddb496)
+
 
 # Resources 
 * [Async IO in Python: A Complete Walkthrough](https://intranet.alxswe.com/rltoken/zYkXScziW1D5rNdNEvObjQ)
@@ -17,3 +17,4 @@
 * How to run concurrent coroutines
 * How to create asyncio tasks
 * How to use the random module
+ ![image](https://github.com/RichardMiruka/alx-backend-python/assets/105627752/7f141479-fde1-4129-aae1-857f45ddb496)
