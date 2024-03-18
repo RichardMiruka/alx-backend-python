@@ -13,6 +13,8 @@ import urllib.parse
 
 import aiofiles
 import aiohttp
+import logging
+import sys
 from aiohttp import ClientSession
 
 logging.basicConfig(
