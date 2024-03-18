@@ -25,6 +25,12 @@ if __name__ == "__main__":
 # Two
 # One
 # Two
+# countsync.py executed in 3.00 seconds.
+
+# This Python script, countsync.py, contains a simple function
+# to count from one to two with a one-second delay between each count.
+# The main() function calls this count() function three times. 
+# Additionally, the script measures and prints the execution time using the time.perf_counter() function.
 
 # While using time.sleep() and asyncio.sleep() may seem banal,
 # they are used as stand-ins for any time-intensive processes that involve wait time. 
