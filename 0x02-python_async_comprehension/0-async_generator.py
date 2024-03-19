@@ -4,8 +4,8 @@ This module provides an asynchronous generator function that yields a
 random float between 0 and 10 after a one second delay for a total of
 10 iterations.
 """
-import asyncio
-import random
+import asyncio # type: ignore[import]
+import random # type: ignore[import]
 from typing import Generator
 
 
